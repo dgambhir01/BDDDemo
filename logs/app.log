@@ -1,0 +1,16 @@
+2021-12-24 13:16:24.780 INFO [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:37)] - Info>>> This is from log: user access login page
+2021-12-24 13:16:24.783 FATAL [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:38)] - Fatal>>> This is from log: user access login page
+2021-12-24 13:16:24.784 ERROR [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:39)] - Error>>> This is from log: user access login page
+2021-12-24 13:16:24.784 WARN [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:40)] - Warn>>> This is from log: user access login page
+2021-12-24 13:16:28.498 INFO [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:37)] - Info>>> This is from log: user access login page
+2021-12-24 13:16:28.498 FATAL [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:38)] - Fatal>>> This is from log: user access login page
+2021-12-24 13:16:28.498 ERROR [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:39)] - Error>>> This is from log: user access login page
+2021-12-24 13:16:28.498 WARN [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:40)] - Warn>>> This is from log: user access login page
+2021-12-24 13:16:33.308 INFO [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:37)] - Info>>> This is from log: user access login page
+2021-12-24 13:16:33.308 FATAL [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:38)] - Fatal>>> This is from log: user access login page
+2021-12-24 13:16:33.308 ERROR [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:39)] - Error>>> This is from log: user access login page
+2021-12-24 13:16:33.308 WARN [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:40)] - Warn>>> This is from log: user access login page
+2021-12-24 13:16:37.332 INFO [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:37)] - Info>>> This is from log: user access login page
+2021-12-24 13:16:37.332 FATAL [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:38)] - Fatal>>> This is from log: user access login page
+2021-12-24 13:16:37.332 ERROR [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:39)] - Error>>> This is from log: user access login page
+2021-12-24 13:16:37.333 WARN [main] [StepDefinitions.LoginSteps.a_user_provides_test1_and_welcome1(LoginSteps.java:40)] - Warn>>> This is from log: user access login page
