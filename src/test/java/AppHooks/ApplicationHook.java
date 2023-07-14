@@ -12,7 +12,8 @@ import io.cucumber.java.Scenario;
 public class ApplicationHook {
 	
 	private DriverFactory driverFactory;
-    private WebDriver driver;  
+    private WebDriver driver; 
+    
     
     @Before("@ui")
     public void launchBrowser(){

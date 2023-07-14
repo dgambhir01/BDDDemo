@@ -1,4 +1,4 @@
-@tagSome @nishant
+@tagSome
 Feature: Test Background Feature
 Description: The purpose of this feature is to test the Background keyword
 
