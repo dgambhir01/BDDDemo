@@ -1,4 +1,4 @@
-@tagSome
+@tagSome @key
 Ability: Second feature
   Description: I want to use this template for my first feature file
 

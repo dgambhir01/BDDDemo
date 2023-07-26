@@ -1,6 +1,6 @@
 Feature: Test Login functionality
 
-  @login @multithread @ui
+  @login @multithread @ui @done
   Scenario Template: Check login is working with valid credentials
     When user access login page
     And a user provides <userName> and <Password>

@@ -1,4 +1,4 @@
-@tagSome
+@tagSome @wip
 Feature: Test Background Feature
 Description: The purpose of this feature is to test the Background keyword
 

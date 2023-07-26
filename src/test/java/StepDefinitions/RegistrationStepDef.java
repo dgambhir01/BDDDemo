@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-
 import factory.DriverFactory;
 import io.cucumber.java.en.Then;
 import pages.RegistrationPage;

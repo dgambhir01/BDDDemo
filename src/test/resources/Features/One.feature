@@ -1,8 +1,7 @@
-@tagSome
+@tagSome @wip
 Feature: First feature
   Rule: I want to use this template for my first feature file (Rule keyword is coming soon)
 
-  # this is how you can add comment(s)
   @tag1
   Scenario: First scenario First feature 
     Given I want to write a step with precondition

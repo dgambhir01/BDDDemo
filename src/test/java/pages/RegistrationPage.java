@@ -1,6 +1,5 @@
 package pages;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -14,16 +13,10 @@ public class RegistrationPage {
 	private By txtemail = By.id("email");
 	private By txtphone = By.id("phone");
 	private By btnsave = By.id("save");
-	private By savedText= By.xpath("//*[@id='saved']/h3/span");
+	// private By savedText = By.xpath("//*[@id='saved']/h3/span");
 
 	public RegistrationPage(WebDriver webDriver) {
 		this.driver = webDriver;
-
-//		if (!driver.getTitle().equals("TestProject Demo")) {
-//			throw new IllegalStateException(
-//					"This is not a second page. The current page is: " + driver.getCurrentUrl());
-//		}
-
 	}
 
 	public void enterOtherDetails() {
@@ -42,7 +35,6 @@ public class RegistrationPage {
 	}
 
 	public void correctMessageIsDisplayed() {
-		
 
 	}
 }
