@@ -25,11 +25,11 @@ The project follows a standard Maven project structure, with the following key d
 
 
 **Configuration**
-_The project uses Maven for dependency management and build automation. The dependencies are listed in the pom.xml file, and the build configuration can be customized according to your needs.
+The project uses Maven for dependency management and build automation. The dependencies are listed in the pom.xml file, and the build configuration can be customized according to your needs.
 
 
 **Writing and Running Tests**
-_The tests in this project are written using Cucumber and Gherkin syntax. The feature files can be found in the src/test/resources directory. To create new tests, add a new feature file following the Gherkin language._
+The tests in this project are written using Cucumber and Gherkin syntax. The feature files can be found in the src/test/resources directory. To create new tests, add a new feature file following the Gherkin language._
 
 
 
