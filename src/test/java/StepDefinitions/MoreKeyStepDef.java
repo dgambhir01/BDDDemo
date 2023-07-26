@@ -1,8 +1,8 @@
-package StepDefinitions;
+package stepDefinitions;
 
 import io.cucumber.java.en.*;
 
-public class MoreKeySteps {
+public class MoreKeyStepDef {
 	
 	@Given("I navigate to the login page")
 	public void i_navigate_to_the_login_page() {

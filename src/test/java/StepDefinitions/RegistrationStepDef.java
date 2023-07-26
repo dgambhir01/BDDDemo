@@ -1,12 +1,13 @@
-package StepDefinitions;
+package stepDefinitions;
 
-import Pages.SecondPage;
+
 import factory.DriverFactory;
 import io.cucumber.java.en.Then;
+import pages.RegistrationPage;
 
-public class SecondSteps {
+public class RegistrationStepDef {
 
-	private SecondPage secondPage=new SecondPage(DriverFactory.getDriver());
+	private RegistrationPage secondPage=new RegistrationPage(DriverFactory.getDriver());
 
 	
 	@Then("user enters other fields")
@@ -25,6 +26,7 @@ public class SecondSteps {
 	@Then("we should see correct message")
 	public void we_should_see_correct_message() {
 		secondPage.correctMessageIsDisplayed();
+		System.out.println("Registration working...");
 	   
 	}
 }

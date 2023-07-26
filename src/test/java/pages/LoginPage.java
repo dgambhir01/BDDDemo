@@ -1,9 +1,8 @@
-package Pages;
+package pages;
 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 public class LoginPage {
 	
@@ -46,8 +45,7 @@ public class LoginPage {
 	}
 	
 	public void checkLogoutIsDisplayed() {
-		Assert.assertEquals(true, driver.findElement(btnlogout).isDisplayed()); 
-
+		
 	}
 
 

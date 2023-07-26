@@ -1,32 +1,18 @@
-package StepDefinitions;
+package stepDefinitions;
 
-import org.apache.logging.log4j.LogManager;
-import Pages.LoginPage;
 import factory.DriverFactory;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.LoginPage;
 
-public class LoginSteps {
+public class LoginStepDef {
 
 	private LoginPage loginPage = new LoginPage(DriverFactory.getDriver());
 
-	org.apache.logging.log4j.Logger log = LogManager.getLogger(LoginSteps.class);
-
-	// @Given("a browser is open")
-	// public void a_browser_is_open() {
-	// WebDriverManager.chromedriver().setup();
-	// driver = new ChromeDriver();
-	// driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
-	// driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-	// driver.manage().window().maximize();
-	//
-	// }
 
 	@When("user access login page")
 	public void user_access_login_page() {
-		// DriverFactory.getDriver().navigate().to("https://example.testproject.io/web/");
-
 		loginPage.accessURL();
 	}
 

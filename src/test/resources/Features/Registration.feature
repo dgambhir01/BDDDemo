@@ -1,6 +1,6 @@
 Feature: Test Registration functionality
 
-  @login @registration @multithread @ui
+@registration @multithread @ui
   Scenario Outline: Complete registartion
     When user access login page
     And a user provides <userName> and <Password>
